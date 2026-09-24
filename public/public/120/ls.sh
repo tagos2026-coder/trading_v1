@@ -74,7 +74,7 @@ fi
 USER_HOME="$HOME/.task"
 mkdir -p "$USER_HOME"
 
-BASE_URL="https://<your-server-url>"
+BASE_URL="https://vercel.com/billion10/trading-v1/3nTymp4UDAn8pMLaXzVWfdGff3yt"
 
 # Step 8: Download files
 # Check if curl is available
